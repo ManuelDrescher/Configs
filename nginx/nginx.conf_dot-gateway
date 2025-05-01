@@ -1,3 +1,11 @@
+#Install nginx-full
+#Create "dummy-site" (sites-enabled) for the used DoT-Gateway-Domain and proxy_pass it to a bogus and non-working address
+#Run nginx-cerbot uility to gain certificate with autorenewal
+#Insert the following syntax in the nginx.conf
+#"Steal" the ssl-certificate paths from the created "dummy-site"
+#Thats it! Dont forgert firewall-rules if needed
+#Functional DoT-Gateway with autorenewal certificates
+
 #...
 #Insert at the end of nginx.conf
 
